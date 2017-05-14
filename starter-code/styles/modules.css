@@ -45,11 +45,40 @@
 
 .byline {
   color: #777;
+  margin-bottom: 20px;
 }
 
 .byline a {
   font-weight: bold;
   text-decoration: none;
+}
+
+#new-form label textarea {
+  width: 100%;
+  margin: 20px 0px;
+  border-color: green;
+}
+
+#new-form label input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 25px;
+  border: 1px solid green;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+#new-form label {
+  width: 20px;
+  margin: 0;
+}
+
+#new-form label #article-published {
+  width: 20px;
+  margin: 0;
+  display: inline;
 }
 
 /*TODO: Add CSS for the "article-export" portion of our new page*/
